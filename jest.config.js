@@ -6,4 +6,9 @@ module.exports = {
   transform: {
     '^.+\\.(t|j)sx?$': ['@swc/jest'],
   },
+  moduleNameMapper: {
+    '^@root(.*)$': '<rootDir>/src$1',
+    '^@components(.*)$': '<rootDir>/src/components$1',
+    '^@utils(.*)$': '<rootDir>/src/utils$1',
+  },
 };
