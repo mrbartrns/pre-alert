@@ -17,7 +17,7 @@
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
   "rules": {
     "@typescript-eslint/consistent-type-exports": [
