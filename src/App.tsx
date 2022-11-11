@@ -8,7 +8,7 @@ const App = () => {
   }, 1000);
 
   return (
-    <div className="text-4xl font-bold text-gray-500">
+    <div>
       <h1>{count}</h1>
     </div>
   );
